@@ -1,0 +1,752 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0px;
+
+  -webkit-font-smoothing: antialiased;
+}
+.media i:hover {
+  color: yellow;
+}
+header {
+  width: 100%;
+  margin: 0px;
+}
+@media screen and (max-width: 1000px) {
+  header {
+    display: none;
+    margin: 0px;
+  }
+}
+
+/* nav */
+
+
+.naving1 {
+  position: sticky;
+  z-index: 10;
+  top: 0px;
+  background-color: white;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.3);
+  
+
+}
+.naving1 img {
+  background-color: none;
+  mix-blend-mode: multiply;
+}
+
+.navbar-nav li {
+  margin: 3px;
+  font-size: 13px;
+  font-weight: 550;
+  transition: all 0.5s linear;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.nav-item:hover a {
+  color: rgba(255, 0, 4, 0.975);
+  cursor: pointer;
+  animation-duration: 1s;
+  font-weight: 550;
+}
+
+.nav-item .dropdown-menu .dropdown-item {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.251);
+  transition: all 0.5s;
+}
+.dropdown:hover ul {
+  display: block;
+}
+
+.dropdown-menu :hover .dropdown-item {
+  color: rgba(255, 255, 0, 0.804);
+}
+
+/* carousel */
+.carouseling {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.carouseling ul li {
+  list-style: none;
+}
+.carousel img {
+  width: 100%;
+  height: 100%;
+}
+
+/* body */
+
+.Welcome {
+  text-align: justify;
+  background-color: rgba(229, 227, 231, 0.954);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.Welcome p {
+  word-spacing: 1px;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 12px;
+  word-spacing: 2px;
+}
+
+.Welcome1 h1 {
+  font-family: sans-serif;
+}
+.Register {
+  background-color: rgba(249, 252, 251, 0.913);
+  text-align: center;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 13px;
+}
+.Register h5 {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.Register input {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+.Register textarea {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+.Register button {
+  background-color: rgba(243, 243, 85, 0.854);
+  color: black;
+  width: 80%;
+}
+.bodyvalidation {
+  color: red;
+  font-size: 5px;
+}
+/* validation */
+form .bodyvalidation {
+  font-size: 10px;
+}
+
+/* body */
+
+/* Our Courses */
+.Courses1 {
+  background-color: #cfcfcf;
+}
+.Courses {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  height: 100%;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+}
+
+.Courses .card {
+  margin: 10px;
+  overflow: hidden;
+}
+
+.Courses .card img {
+  transition: all 0.4s;
+  transition-duration: 1s;
+}
+.image:hover img {
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
+}
+.card-body h6 {
+  font-size: 15px;
+  border: none;
+  font-weight: 500;
+  text-decoration: none;
+  overflow: visible;
+}
+
+/* Our Courses */
+
+/* New Batches Tabule */
+.table1 {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.table thead tr th {
+  background-color: rgba(10, 10, 62, 0.799);
+  color: white;
+}
+.table thead tr th {
+  border: 1px solid gray;
+}
+tbody tr td {
+  border: 1px solid gray;
+}
+td a {
+  text-decoration: none;
+  color: red;
+}
+
+/* New Batches tabule */
+
+/* Training Modes */
+.Modes {
+  background-color: #cfcfcf;
+}
+
+.Training {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 450;
+}
+.Training .card {
+  overflow: hidden;
+}
+.Training a img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+.Modes .card-text {
+  font-size: 13px;
+}
+
+/* Training Modes */
+
+/* Why Choose us? */
+.Choose {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  text-align: justify;
+}
+.Choose p {
+  word-spacing: 1px;
+
+  font-size: 14px;
+}
+.Choose h4 {
+  text-align: center;
+}
+/* Why Choose us? */
+
+/* Counter placed students */
+.placed {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.285);
+  overflow: hidden;
+  display: flex;
+}
+
+.count {
+  padding: 20px;
+}
+.count p {
+  font-weight: 500;
+
+  font-size: 17px;
+}
+.count h2 {
+  color: yellow;
+}
+
+.students {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+  background-image: url(images/homebg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Counter placed students */
+
+/* Students What they say */
+.studentsin p {
+  text-align: start;
+  font-size: 12px;
+  font-weight: 500;
+}
+.owl-carousel .feedback {
+  text-align: end;
+  margin-right: 10px;
+}
+/* Students What they say */
+
+/* Recent Placements */
+
+.Placements1 {
+  background-color: #cfcfcf;
+  text-align: center;
+}
+.Placements {
+  padding: 10px;
+}
+.Placements1 img {
+  border-radius: 5px;
+}
+
+/* Recent Placements */
+
+/* Our Training Approach */
+.Training {
+  align-content: center;
+  text-align: center;
+}
+.Training .card {
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #e5e2e2e8;
+}
+
+.Training .card img {
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  margin: auto;
+}
+
+.Training h6 {
+  margin-top: 5px;
+}
+/* Our Training Approach */
+
+/* Our Students Placed In */
+.Placed {
+  text-align: center;
+  margin: auto;
+  background-color: #cfcfcf;
+}
+.Placed button {
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  box-sizing: 2px 1px 2px 0px;
+  border: none;
+}
+
+/* .Placed1 {
+  margin-left: 10px;
+} */
+/* Our Students Placed In */
+
+/* footer */
+.footer {
+  background-color: rgba(8, 136, 8, 0.986);
+  color: white;
+
+  word-spacing: 2px;
+}
+.footer h5 {
+  text-align: justify;
+}
+.footer p {
+  text-align: justify;
+  font-size: 13px;
+}
+.footer.Hyderabad {
+  word-spacing: none;
+}
+.Quick i {
+  color: yellow;
+}
+.Quick1 a {
+  transition: all 0.5s;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  color: white;
+  font-weight: 500;
+}
+
+.Quick1 ul li {
+  list-style: none;
+  text-decoration: none;
+  text-align: justify;
+  margin: 10px;
+  font-size: 13px;
+}
+
+.Quick1 a:hover {
+  transform: skewX(-10px 20deg);
+  color: yellow;
+}
+.Reach i {
+  color: yellow;
+}
+
+.socialfooter span i {
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  border: 50%;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.457);
+  margin: auto;
+}
+.socialfooter span :hover {
+  color: yellow;
+  cursor: pointer;
+}
+.contactfooter p i {
+  color: yellow;
+}
+
+/* whatsapp */
+.whatsapp {
+  position: fixed;
+  bottom: 45px;
+  left: 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 12px;
+  background-color: green;
+  color: white;
+  z-index: 10;
+}
+.whatsapp a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+}
+
+.telegram {
+  position: fixed;
+  bottom: 45px;
+  z-index: 10;
+  text-align: end;
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(0, 213, 255);
+}
+.telegram a {
+  text-decoration: none;
+  color: white;
+}
+
+/* whatsapp */
+
+/* footer */
+/* footer2 */
+.footer2 {
+  background-color: rgb(2, 91, 2);
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.Designed {
+  text-align: end;
+  font-size: 14px;
+}
+.Designed a {
+  text-decoration: none;
+}
+.Designedby {
+  font-size: 14px;
+}
+/* footer2 */
+
+/* contact */
+.contactbg1 {
+  width: 100%;
+  height: 100%;
+}
+.contactbg {
+  background-image: url(images/homebg.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 90px;
+  background-repeat: no-repeat;
+}
+.contact {
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
+}
+.contact1 {
+  text-align: end;
+}
+.contact1 a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s;
+}
+.contact1 a:hover {
+  color: blue;
+}
+.contact1 {
+  color: yellow;
+}
+/* contact */
+
+/* Quick Enquiry */
+.Enquiry3 {
+  background-color: #cfcfcf;
+}
+@media screen and (max-width: 600px) {
+  .Enquiry {
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+  }
+}
+/* validation */
+.Enquiryvalidation {
+  font-size: 10px;
+  color: red;
+  padding: none;
+  margin: none;
+
+  text-align: center;
+}
+
+.Quick {
+  background-color: whitesmoke;
+  margin: auto;
+  border-radius: 6px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.Quick form input {
+  border: 1px solid gray;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 90%;
+  font-size: 15px;
+}
+.Quick textarea {
+  overflow: hidden;
+  text-align: center;
+  width: 90%;
+  font-size: 15px;
+}
+.Quick button {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(219, 219, 12);
+  font-weight: 500;
+}
+/* Quick Enquiry */
+
+/* Address */
+.mediaicon {
+  transition: all 0.5s;
+  transition-duration: 0.5s;
+}
+
+.mediaicon i {
+  font-size: 16px;
+  border-radius: 50%;
+  width: 150px;
+  font-weight: 600;
+  border: 2px solid black;
+  padding: 12px;
+  margin: 5px;
+  margin-bottom: 5px;
+  text-align: justify;
+}
+.mediaicon :hover {
+  background-color: rgb(190, 235, 83);
+  cursor: pointer;
+}
+.Address {
+  background-color: whitesmoke;
+  border-radius: 7px;
+  font-weight: 450;
+  margin-left: 6px;
+  font-size: 15px;
+}
+
+.Address p {
+  text-align: justify;
+  margin-left: 10px;
+}
+/* Address */
+
+/* map location */
+
+/* map location */
+
+/* Registration */
+.registersection {
+  background-color: #f7f1f1;
+  width: 100%;
+  font-size: 10px;
+}
+.Registration {
+  font-weight: 500;
+  background-color: aqua;
+  border-radius: 5px;
+}
+.Registration input {
+  margin-bottom: 10px;
+  text-align: center;
+  width: 90%;
+  padding: 10px;
+  font-size: 13px;
+}
+
+@media screen and(max-width: 600px) {
+  .Registration textarea {
+    width: 100%;
+  }
+  .Registration input {
+    width: 100%;
+  }
+  .Registration select {
+    width: 100%;
+  }
+}
+
+.Registration textarea {
+  text-align: center;
+  width: 90%;
+  font-size: 13px;
+}
+
+.Registration select {
+  padding: 10px;
+  text-align: center;
+  width: 90%;
+  font-size: 13px;
+}
+
+/* Registration */
+
+/* Abouting ling */
+.abouting {
+  width: 100%;
+  height: 100%;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 30px;
+}
+.abouting2 {
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.abouting3 {
+  text-align: justify;
+  font-size: 15px;
+}
+.abouting p {
+  text-align: justify;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.abouting img {
+  border-radius: 2px;
+}
+.Vision p {
+  font-size: 15px;
+  font-weight: 500;
+}
+/* Abouting ling */
+.BYRU {
+  color: pink;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+
+
+
+
+/* recent placements */
+.placementslink img {
+  margin: 10px;
+  box-shadow: 2px 2px 5px 1px grey;
+  border-radius: 5px;
+  background-color: #cfcfcfc4;
+}
+.placementslinking {
+  background-color: #cfcfcfc4;
+}
+/* recent placements */
+
+/* Placed Companies */
+.Companies h6 {
+  padding: 12px 5px 12px 5px;
+  margin: 10px;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 2px;
+}
+/* Placed Companies */
+
+/* Reviews */
+
+.personreview {
+  font-size: 14px;
+  word-spacing: 1.5px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  letter-spacing: 0.25px;
+}
+
+.personname {
+  border-bottom: 1.5px dashed gray;
+  padding-bottom: 5px;
+  text-align: right;
+  margin-right: 10px;
+  font-size: 15px;
+}
+.Reviews button {
+  border-radius: 2px;
+  padding: 10px;
+}
+
+/* Reviews */
+
+/* Instructor */
+.Instructor2 {
+  background-color: #cfcfcf7d;
+}
+.Instructor1 {
+  text-align: center;
+  width: 100%;
+}
+.Instructor {
+  text-align: center;
+  width: 70%;
+  background-color: #f7f1f173;
+  border-radius: 5px;
+  margin: auto;
+}
+.Instructor input {
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+}
+.Instructor textarea {
+  text-align: center;
+  font-size: 12px;
+}
+.Instructor button {
+  border-radius: 5px;
+}
+
+/* Instructor */
